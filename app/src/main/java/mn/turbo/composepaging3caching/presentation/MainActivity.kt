@@ -9,10 +9,8 @@ import androidx.compose.material.Surface
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.paging.compose.collectAsLazyPagingItems
-import mn.turbo.composepaging3caching.presentation.BeerScreen
-import mn.turbo.composepaging3caching.presentation.BeerViewModel
-import mn.turbo.composepaging3caching.ui.theme.ComposePaging3CachingTheme
 import dagger.hilt.android.AndroidEntryPoint
+import mn.turbo.composepaging3caching.ui.theme.ComposePaging3CachingTheme
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {

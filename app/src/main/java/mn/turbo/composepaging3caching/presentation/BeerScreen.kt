@@ -27,7 +27,7 @@ fun BeerScreen(
         if (beers.loadState.refresh is LoadState.Error) {
             Toast.makeText(
                 context,
-                "123123 ${(beers.loadState.refresh as LoadState.Error).error.message}",
+                "${(beers.loadState.refresh as LoadState.Error).error.message}",
                 Toast.LENGTH_SHORT
             ).show()
         }
